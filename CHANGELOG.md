@@ -1,7 +1,8 @@
 x.y.z Release notes (yyyy-MM-dd)
 =============================================================
 ### Enhancements
-* None.
+* Greatly improve the performance of obtaining cached Realm instances in Swift
+  when using a sync configuration.
 
 ### Fixed
 * Using `seedFilePath` threw an exception if the Realm file being opened
